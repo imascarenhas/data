@@ -1,4 +1,3 @@
-<script type="text/javascript">
 // variables for the first series
 var series_1_channel_id = 113163;
 var series_1_field_number = 1;
@@ -167,5 +166,3 @@ function getChartDate(d) {
   // offset in minutes is converted to milliseconds and subtracted so that chart's x-axis is correct
   return Date.parse(d) - (my_offset * 60000);
 }
-</script>
-
